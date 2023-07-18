@@ -12,18 +12,19 @@ ignoreErrors = ["error-remote-getjson"]
 
 # ------------------------------
 theme = "paper"
-title = "Paper"
+title = "rugo-cafe/"
+enableEmoji = true
 
 [params]
   color = 'linen'
 
-  twitter = 'nanxiaobei'
-  github = 'nanxiaobei'
-  instagram = 'nan.xiaobei'
+  github = 'rugo-cafe'
+  linkedin = 'vitor-hugo-cunha' 
 
-  avatar = 'nanxiaobei@gmail.com'
-  name = 'Lee'
-  bio = 'Discover fresh context'
+  avatar = 'https://avatars.githubusercontent.com/u/47753438?v=4'
+  name = 'vitor hugo cunha'
+  bio = 'estudante de design de produto, aspirante a dev.'
+  
 # ------------------------------
 
 # needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
@@ -36,14 +37,14 @@ title = "Paper"
 
   [[menu.main]]
     identifier = "about"
-    name = "About"
+    name = "sobre"
     url = "/about/"
     weight = 10
   [[menu.main]]
     identifier = "contact"
-    name = "Contact"
+    name = "contato"
     url = "/contact/"
-    weight = 10
+    weight = 20
 
 [taxonomies]
 category = "categories"
