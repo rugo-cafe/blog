@@ -1,3 +1,6 @@
 [submodule "themes/paper"]
 	path = themes/paper
 	url = https://github.com/nanxiaobei/hugo-paper
+[submodule "rugo-cafe.github.io"]
+	path = rugo-cafe.github.io
+	url = https://github.com/rugo-cafe/rugo-cafe.github.io
